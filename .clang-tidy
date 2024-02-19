@@ -1,4 +1,13 @@
-Checks: '*'
+Checks: "
+  *,
+  -modernize-use-trailing-return-type
+  "
+
 WarningsAsErrors: ''
-HeaderFilterRegex: ''
-FormatStyle: none
+
+HeaderFilterRegex: '*'
+
+#AnalyzeTemporaryDtors: false
+#FormatStyle: file
+#User: shecannotsee
+#CheckOptions:
